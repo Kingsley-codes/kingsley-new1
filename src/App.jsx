@@ -64,7 +64,7 @@ export default function App() {
             <a href="#" className='text-primary ml-3 btn border-primary md:border-2  hover:bg-primary hover:text-white transition ease-out duration-500'>Sign up</a>
           </div>
 
-
+        
           <header>
             {/* page title */}
             <h2 className='text-gray-700 text-6xl font-semibold'>Recipes</h2>
@@ -125,6 +125,8 @@ export default function App() {
               }
             </div>
           </div>
+
+          {/* menu list*/}
 
           <div className='flex justify-center'>
             <div className='bg-secondary-100 text-secondary-200 btn hover:shadow-inner transform
